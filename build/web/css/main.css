@@ -1,0 +1,50 @@
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.quitar-arriba{
+	margin-top: 100px;
+}
+.espacio-abajo{
+	margin-bottom: 50px;
+}
+.espacio-derecha{
+	margin-right: 10px;
+}
+.Cabin-Sketch{
+	font-family: 'Cabin Sketch', cursive;
+}
+.gris{
+	color: #231F20
+}
+.naranja{
+	color: #F4951A
+}
+.naraja-f{
+	color: #F56F23
+}
+.blanco{
+	color: #ECF1DD
+}
+a,.azul{
+	color: #254063
+}
+.nolista li{
+	list-style-type: none;
+}
+.nolista{
+	margin: 0px;
+	padding: 0px;
+}
+.fondo-gris{
+	background-color: #eee;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+}
