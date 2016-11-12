@@ -1,0 +1,101 @@
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.quitar-arriba{
+	margin-top: 100px;
+}
+.espacio-arriba{
+    margin-top: 40px;
+}
+.espacio-abajo{
+	margin-bottom: 50px;
+}
+.espacio-derecha{
+	margin-right: 20px;
+}
+.Cabin-Sketch{
+	font-family: 'Cabin Sketch', cursive;
+}
+.gris{
+	color: #231F20
+}
+.rojo{
+    color: #cc0000
+}
+.naranja{
+	color: #F4951A
+}
+.naraja-f{
+	color: #F56F23
+}
+.blanco{
+	color: #ECF1DD
+}
+a,.azul{
+	color: #254063
+}
+.nolista li{
+	list-style-type: none;
+}
+.nolista{
+	margin: 0px;
+	padding: 0px;
+}
+.fondo-gris{
+	background-color: #eee;
+}
+.fondo-rojo{
+    background-color: #cc0000;
+    background: #cc0000;
+}
+.fondo-balnco{
+    background-color: #ECF1DD;
+    background: #ECF1DD;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+}
+
+/*funciones para tablas*/
+table, th, td{
+    border: 1px solid black;
+    background: #eee;
+    background-color: #ECF1DD
+    
+}
+
+.contenido { 
+height: 100%; 
+width: 100%; 
+} 
+
+footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: 60px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 40px;
+            clear: both;
+            background: #254063 ;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .define {
+            width:960px;
+            margin:0 auto;
+        }
+        
+        
+        table, td, th, tr {
+            text-align: center;
+        }

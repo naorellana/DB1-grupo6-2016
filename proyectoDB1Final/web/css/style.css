@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/11/2014, 07:17:41 AM
+    Author     : hackro
+*/
+.imgs{
+	max-width: 30%;
+        max-height: 30%;
+}
+
+.img100{
+    max-width: 100%;
+    max-height: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.quitar-arriba{
+	margin-top: 100px;
+}
+.espacio-abajo{
+	margin-bottom: 50px;
+}
+.espacio-derecha{
+	margin-right: 10px;
+}
+.Cabin-Sketch{
+	font-family: 'Cabin Sketch', cursive;
+}
+.gris{
+	color: #231F20
+}
+.naranja{
+	color: #F4951A
+}
+.naraja-f{
+	color: #F56F23
+}
+.blanco{
+	color: #ECF1DD
+}
+a,.azul{
+	color: #254063
+}
+.nolista li{
+	list-style-type: none;
+}
+.nolista{
+	margin: 0px;
+	padding: 0px;
+}
+.fondo-gris{
+	background-color: #eee;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+}
+
+.fondo
+{
+    background-color: #254063;
+    background: #254063;
+}

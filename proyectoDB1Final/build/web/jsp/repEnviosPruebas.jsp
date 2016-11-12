@@ -1,0 +1,71 @@
+<%-- 
+    Document   : reportes
+    Created on : 04-oct-2016, 12:30:12
+    Author     : Nery Alexis Orellana
+--%>
+
+<%@page import="grupo6db1.modelo.conexionSqlC"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+        <title>| Entregas | Bases de Datos 1 | 2016 | Grupo No. 6 Seccion "A"</title>
+    </head>
+    <body class="fondo fuente">
+        <nav class="fondo-rojo  padding-largo text-center">
+		<ul class="nolista ">
+			<li class="col-md-3 inline-block "> <a class="blanco" href="envios.jsp">Envíos</a>  </li>
+			<li class="col-md-3 inline-block"> <a class="blanco" href="entregas.jsp">Entregas </a> </li>
+			<li class="col-md-3 inline-block"> <a  class="blanco"href="rutas.jsp">Rutas</a> </li>
+		</ul>
+	</nav>
+        <div class="col-md-6 center-block quitar-float text-center   fuente"> 
+
+		
+                <p class="Cabin-Sketch blanco"> Nery Alexis Orellana Cuy 3190-12-2594 </p>
+                <form action="#" method="post">
+                    <p><input type="text" name="campo" id="campo" placeholder="Prueba"> </p>
+                    <p><input type="submit" name="Entrar" id="Entrar" value="Entrar"></p>
+                    <input type="button" value="Saluda" onclick = "Saluda()"/>
+                </form>
+                
+                
+		<nav class="espacio-arriba"  >
+			<a class="blanco espacio-derecha" href="https://github.com/naorellana/DB1-grupo6-2016" >| GitHub |</a>
+			<a class="blanco espacio-derecha" href="http://db1umg2016.hol.es/">| Documentacion |</a>
+			<a class="blanco espacio-derecha" href="proyectos.html">| Descargas |</a>
+                        <p class="blanco espacio-derecha">| Escríbenos a:<a class="blanco" href="mailto:db1umgsjp@gmail.com"> db1umgsjp@gmail.com | </a></p>
+		</nav>
+                
+	</div>
+        <%! conexionSqlC crep = new conexionSqlC(); %>
+        <%! Object prueba[][]= prueba= crep.consultarDB1("ENVIOS"); %>
+        <%! int i=0; %>
+        <%
+            i=0;
+            while(i<crep.getCantFilas()){
+
+                i++;
+            };
+        %>
+        <div>
+            <table>
+                <caption  class="blanco"> Reporte De :</caption>
+                <tr>
+                    <th> nombre </th>
+                    <th> edad</th>
+                </tr>
+                <tr>
+                    <td> nery orellana Cuy</td>
+                    <td> 22</td>
+                </tr>
+            </table>
+        </div>
+        <p class="blanco"><%= crep.datosCOnsulta() %></p>
+    </body>
+</html>
